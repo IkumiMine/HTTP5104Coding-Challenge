@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>HomeGreenery</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+    <!--Header-->
+    <header id="header">
+      <div class="page-wrapper">
+        <h2>Home<span id="half-title">Greenery</span></h2>
+        <!--Main Navigation-->
+        <nav id="main-navigation">
+          <h3 class="hidden">Main navigation</h3>
+            <ul class="main-menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Plants</a></li>
+              <li><a href="#">Tips</a></li>
+              <li><a href="#">Resources</a></li>
+              <li><a href="#">About</a></li>
+              <li><a id="signin-button" href="#">Sign in</a></li>
+            </ul>
+        </nav>
+      </div>
+    </header>
+    <!--Header with image-->
+    <section id="header-with-image">
+      <div class="page-wrapper">
+        <h2 class="page-title">Find your green
+thumb</h2>
+        <img src="images/ostrich-fern-cropped.jpg" alt="the picture of ostrich">
+      </div>
+    </section>
+    <div class="page-wrapper">
+      <!--Main Content-->
+      <main id="main">
+        <h1 class="hidden">Main content</h1>
+        <!--Two Column Layout-->
+        <div class="row">
+          <div class="main-column" id="main1">
+            <h2>Why grow plants at home?</h2>
+              <img src="images/potted-plant.jpg" alt="the picture of plant in the pot">
+              <ul>
+                <li>Spruce up your indoor space while cleaning the air at the same time.</li>
+                <li>Boost your mood and creativity.</li>
+                <li>Grow your own food and eat fresher.</li>
+              </ul>
+          </div>
+          <div class="main-column">  
+            <h2>New to gardening?</h2>
+              <p>No problem.Take advantage of our <a class="link-letter" href="#">plant growing resources</a>.</p>
+              <p><a class="link-letter" href="#">Create an account</a> to get access to your own gardener's journal and garden-planning tools. Get customized planting charts.</p>
+              <a id="register-button" href="#">Register now</a>
+          </div>
+        </div>
+        <!--Three Column Layout-->
+        <section  class="row" id="row2">
+          <h2>Find what you're looking for</h2>
+            <div class="three-columns">
+              <h3><a href="#">Seeds</a></h3>
+              <img src="images/seedlings.jpg" alt="holding seedling with hands">
+              <p>Where to get seeds and how to store them.<p>
+              <a class="bottom-link" id="seeds-link" href="#">Learn about seeds</a>
+            </div>
+            <div class="three-columns">
+              <h3><a href="#">Plant resource</a></h3>
+              <img src="images/journal-book.jpg" alt="book image">
+              <p>Look up a plant and growing info.<p>
+              <a class="bottom-link" id="plant-link" href="#">Plant index</a>
+            </div>
+            <div class="three-columns">
+              <h3><a href="#">Growing food</a></h3>
+              <img src="images/veg-garden.jpg" alt="a picture of garden">
+              <p>Learn about growing your own food.<p>
+              <a class="bottom-link" id="food-link" href="#">Food gardening</a>
+            </div>
+        </section>
+        <!--Subscribe Form-->
+        <section class="row" id="subscribe-form">
+          <h2>Stay up to date</h2>
+          <p>Get the latest gardening articles and tips by subscribing to our newsletters.</p>
+          <form action="#" method="post">
+            <div class="email-form">
+              <label for="email">Email </label>
+              <input type="email" id="email" name="email" placeholder="john.smith@example.com"/>
+            </div>
+            <div>
+              <fieldset>
+                <legend>Your interests</legend>
+                <input type="checkbox" id="tips" name="tips" value="tips"/>
+                <label for="tips">Tips</label>
+                <input type="checkbox" id="news" name="news" value="news"/>
+                <label for="news">News</label>
+                <input type="checkbox" id="tools" name="tools" value="tools"/>
+                <label for="tools">Tools</label>
+              </fieldset>
+            </div>
+            <div>
+              <button type="submit" name="submit">Subscribe now</button>
+            </div>
+          </form>
+        </section>
+      </main>
+    </div>
+    <!--Footer-->
+    <footer id="footer">
+      <div class="page-wrapper">
+        <nav id="footer-navigation">
+          <h2 class="hidden">Footer navigation</h2>
+            <ul>
+              <li>
+                <a href="#">Plants</a>
+                <ul>
+                  <li><a href="#">Plant index</a></li>
+                  <li><a href="#">Featured plant</a></li>
+                </ul>
+              </li>           
+              <li>
+                <a href="#">Resources</a>
+                <ul>
+                  <li><a href="#">Zone maps</a></li>
+                  <li><a href="#">Planting charts</a></li>
+                  <li><a href="#">Garden structures</a></li>
+                  <li><a href="#">Suppliers</a></li>
+                </ul>
+              </li>
+              <li><a href="#">About</a></li>
+              <li>
+                <a href="#">Legal</a>
+                <ul>
+                  <li><a href="#">Terms and conditions</a></li>
+                  <li><a href="#">Privacy policy</a></li>
+                </ul>
+              </li>
+            </ul>
+        </nav>
+        <div id="copyright-bar">
+          <div class="copyright">&copy; Copyright HomeGreenery, 2020. All rights reserved. This is a fake website for HTTP5104.</div>
+        </div>
+      </div>      
+    </footer>
+  </body>
+</html>
